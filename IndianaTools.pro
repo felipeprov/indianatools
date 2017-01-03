@@ -28,16 +28,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         mainwindow.cpp \
     moaiwidget.cpp \
-    ../../vs2015/host-modules/aku_modules.cpp \
-    ../../vs2015/host-modules/aku_modules_util.cpp
+    host-modules/aku_modules.cpp \
+    host-modules/aku_modules_util.cpp
 
 HEADERS  += mainwindow.h \
     moaiwidget.h \
-    ../../vs2015/host-modules/aku_modules.h \
-    ../../vs2015/host-modules/aku_modules_config.h \
-    ../../vs2015/host-modules/aku_modules_util.h \
-    ../../vs2015/host-modules/aku_plugins.cpp.in \
-    ../../vs2015/host-modules/aku_plugins.h
+    host-modules/aku_modules.h \
+    host-modules/aku_modules_config.h \
+    host-modules/aku_modules_util.h \
+    host-modules/aku_plugins.cpp.in \
+    host-modules/aku_plugins.h
 
 FORMS    += mainwindow.ui
 
